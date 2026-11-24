@@ -92,7 +92,7 @@ class Call(PyTgCalls):
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
         )
-        self.three = PyTgCalls(self.userbot4)
+        self.four = PyTgCalls(self.userbot4)
 
         self.userbot5 = Client(
             name="AloneMusic5",
@@ -100,7 +100,7 @@ class Call(PyTgCalls):
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
         )
-        self.three = PyTgCalls(self.userbot5)
+        self.five = PyTgCalls(self.userbot5)
 
     def _build_stream(
         self,
