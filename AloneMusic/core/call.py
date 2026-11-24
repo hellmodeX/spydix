@@ -68,7 +68,7 @@ class Call(PyTgCalls):
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
         )
-        self.one = PyTgCalls(self.userbot1, cache_duration=100)
+        self.one = PyTgCalls(self.userbot1)
 
         self.userbot2 = Client(
             name="AloneMusic2",
