@@ -55,7 +55,7 @@ def private_panel(_):
                 callback_data="LG",
             ),
             InlineKeyboardButton(
-                text="🐙 Source Code",
+                text="𝘿𝙋 𝙕𝙤𝙣𝙚",
                 url=config.UPSTREAM_REPO,
             ),
         ],
